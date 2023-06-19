@@ -1,3 +1,9 @@
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
+
+<h1 align="center"> ORM com NodeJS : API com Sequelize e MySQL </h1>
+
 ```npm init -y``` - que cria um arquivo package.json com esqueleto base.
 
  ```npm install express``` - Instala a biblioteca express que usamos para subir o servidor local e também para gerenciar as rotas que criamos e usamos na aplicação.
@@ -26,7 +32,7 @@
 
 ```db:migrate:undo --name [data-hora]-create-[nome-da-tabela].js``` - Para desfazer uma migração específica. Nesse caso, lembre-se que só irá funcionar se não tiver nenhuma outra tabela relacionada a ela!
 
-#Desfazendo seeds
+<h2>Desfazendo seeds</h2>
 
 ```npx sequelize db:seed:undo``` - Para desfazer o último seed feito.
 
@@ -34,7 +40,7 @@
 
 ```npx sequelize-cli db:seed:undo:all``` - Para desfazer todos os seeds feitos.
 
-##Importante:
+<h2>Importante:</h2>
 
 Ao contrário das migrações, não existe nenhum recurso de “versionamento” de seeds, só é possível incluir no banco e desfazer a operação (o que vai deletar os registros do banco).
 Se você rodar o :undo em uma tabela e quiser mais tarde utilizar os seeds novamente na mesma tabela, os IDs deles serão outros.
