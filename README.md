@@ -44,3 +44,23 @@
 
 Ao contrário das migrações, não existe nenhum recurso de “versionamento” de seeds, só é possível incluir no banco e desfazer a operação (o que vai deletar os registros do banco).
 Se você rodar o :undo em uma tabela e quiser mais tarde utilizar os seeds novamente na mesma tabela, os IDs deles serão outros.
+
+<h3>Criando novos modelos</h3>
+
+```npx sequelize-cli model:create --name Niveis --attributes descr_nivel:string``` - Cria a tabela Niveis
+
+```npx sequelize-cli model:create --name Turmas --attributes data_inicio:dateonly``` - Cria a tabela Turmas
+
+```npx sequelize-cli model:create --name Matriculas --attributes status:string``` - Cria a tabela Matriculas
+
+Depois de fazer a criação e as associações de cada modelo
+
+```npx sequelize-cli db:migrate``` - Migra os novos models 
+
+<h3>Criando os seeders dos modelos criados</h3>
+
+```npx sequelize-cli seed:generate --name demo-nivel``` 
+
+```npx sequelize-cli seed:generate --name demo-turmas```
+
+```npx sequelize-cli seed:generate --name demo-matriculas```
