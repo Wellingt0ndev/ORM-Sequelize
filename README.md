@@ -4,7 +4,7 @@
 
 <h1 align="center"> ORM com NodeJS : API com Sequelize e MySQL </h1>
 
-Essa projeto foi feito no curso da Alura, onde fizemos uma API para um sistema de controle de alunos e turmas de uma escola de inglês, seguimos um diagrama de banco, onde as tabelas já estão dadas, e, a partir desses dados, escrevemos a nossa API do zero.
+Esse projeto foi feito no curso da Alura, onde fizemos uma API para um sistema de controle de alunos e turmas de uma escola de inglês, seguimos um diagrama de banco, onde as tabelas já estão dadas, e, a partir desses dados, escrevemos a nossa API do zero.
 
 Para rodar essa API no seu computador baixe o repósitorio. Navegue pelo terminal até o diretório do projeto e instale as dependências com o comando ```npm install```.
 Crie um banco de dados local chamado escola_ingles para trabalhar nesse projeto, usei o MySQL. Coloque os dados do seu banco em  ```api/config/config.json```.
