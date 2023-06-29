@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       validate: {
         funcaoValidadora: function(dado) {
-          if(dado.length < 3) throw new Error('o campo deve ter mais que 3 caracteres')          
+          if(dado.length < 3) throw new Error('o campo nome deve ter mais que 3 caracteres')          
         }
       }
     },
