@@ -1,7 +1,3 @@
-<h4 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h4>
-
 <h1 align="center"> ORM com NodeJS : API com Sequelize e MySQL </h1>
 
 Esse projeto foi feito no curso da Alura, onde fizemos uma API para um sistema de controle de alunos e turmas de uma escola de inglês, seguimos um diagrama de banco, onde as tabelas já estão dadas, e, a partir desses dados, escrevemos a nossa API do zero.
